@@ -21,3 +21,5 @@ spec:
   values:
     service:
       type: NodePort
+    image:
+      pullPolicy: ${PULL_POLICY}
